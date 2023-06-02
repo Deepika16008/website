@@ -1,0 +1,211 @@
+.logo{
+    margin:0px ;padding:0px;
+    box-sizing:border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    outline:none;border:none;
+    text-decoration:none;
+    text-transform:capitalize;
+    transition:.2s linear;
+    float:left;
+    color:rgb(214, 132, 145);
+    font-size: 25px;
+    position:absolute;
+    top:6px;
+    left:7px;
+    
+}
+.logo img{
+        height:70px;
+width:80px;
+margin:10px;
+opacity:0.9;
+
+
+    
+}
+section{
+padding:2rem 9%;
+}
+.navbar{
+    margin:0px;
+    padding:30px;
+    font-weight: bolder;
+    background-color:rgb(20, 20, 22);
+    width:100%;
+    
+
+    
+}
+.navbar a{
+    margin:60px;
+    left:70px;
+    padding:60px;
+    text-decoration:none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(227, 235, 235);
+
+}
+.navbar a:hover{
+    color:rgb(233, 164, 80);
+
+}
+
+
+
+.content{
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style:italic;
+opacity:10;
+color:white;
+text-align:left;
+font-size:20px;
+
+
+}
+.home{
+display:flex;
+align-items:center;
+min-height:20vh;
+background:url("https://images.hdqwalls.com/download/anime-girl-in-city-4k-oj-1360x768.jpg") no-repeat;
+background-size:cover;
+background-position:center;
+
+}
+.home .content{
+max-width:50rem;
+}
+
+.home .content h3{
+font-size:5px;
+color:red;
+}
+
+.home .content span{
+font-size:10px;
+color:yellow;
+padding:1rem 0;
+line-height:1.5;
+}
+.abo{
+     text-align:center;
+     font-size:4rem;
+color:green;
+padding:1rem;
+margin:2rem 0;
+background:black;
+}
+
+.home .content p{
+font-size:20px;
+color:orange;
+padding:1rem 0;
+line-height:1.5;
+}
+
+
+
+
+.btn{
+text-decoration:none;
+display:inline-block;
+margin-top:1rem;
+
+border-radius:6rem;
+background:pink;
+color:white;
+padding:1rem 1rem;
+cursor:pointer;
+font-size:1.7rem;
+
+}
+.btn:hover{
+background:orange;
+}
+   .profile,.profile1,.profile2{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align:center;
+            box-shadow: 0 0 10px rgb(61, 56, 56);
+            border:1px solid;
+            display: inline-block;
+            max-width: 200px;
+            padding: 20px;
+            margin:90px;
+            
+        }
+        .Id-Photo,.Id-Photo1,.Id-Photo2{
+            display:flex;
+           
+margin-left:-120px;
+            flex-direction:row;
+        }
+        .profile_image,.profile_image1,.profile_image2{
+            width:150px;
+            height:150px;
+            object-fit:cover;
+            border-radius:50%;
+            display:block;
+            margin:0px auto 20px auto;
+           padding:10px;
+        }
+        .profile__name,.profile__name1,.profile__name2{
+            font-size:1.2em;
+            font-weight:bold;
+        }
+        .profile__title,.profile__title1,.profile__title2{
+            margin-bottom:20px;
+
+        }
+        .profie__detail,.profie__detail1,.profie__detail2 {
+            display:flex;
+            align-items: center;
+            justify-content: center;
+           
+        }
+        img{
+            height:30px;
+            width:40px;
+        }
+.foo{
+padding:80px;
+background-color:black;
+color:white;
+height:30%;
+  display: flex;
+  margin-left: -200px;
+  position: absolute;
+  width:90%;
+}
+
+#wi{
+padding:0px;
+color:grey;
+font-weight:bolder;
+text-decoration:none;
+flex-direction:row;
+
+
+
+
+
+}
+
+#q{
+top:0px;
+padding:0px;
+
+margin:0px;
+
+}
+#q a{
+text-decoration:none;
+color:white;
+line-height:20px;
+
+margin:20px;
+}
+.pm{
+flex-direction:row;
+padding:0px;
+margin:0px;
+float:left;
+}
